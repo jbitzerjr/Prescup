@@ -13,7 +13,7 @@ services:
 
   db:
     image: mariadb:10.5
-    container_name: shop-smart-db
+    container_name: shop-db
     environment:
       MYSQL_ROOT_PASSWORD: admin
       MYSQL_DATABASE: ecommerce
@@ -21,6 +21,7 @@ services:
       MYSQL_PASSWORD: tartans@1
     volumes:
       - db_data:/var/lib/mysql
+      - ./db.sql:/docker-entrypoint-initdb.d/db.sql 
     networks:
       - shopnet
 

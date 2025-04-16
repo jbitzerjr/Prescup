@@ -1,6 +1,6 @@
 <?php
 // db.config.php
-$servername = "localhost";
+$servername = "shop-db";
 $dbusername = "website";
 $dbpassword = "tartans@1";
 $dbname = "ecommerce";
@@ -13,4 +13,3 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
-
