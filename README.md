@@ -2,6 +2,8 @@
 
 Welcome to a collection of custom CTF-style challenges originally created for the **Presidents Cup** cybersecurity competition. These challenges have been adapted for self-hosting so you can run them locally, use them for training, or just have fun breaking things in a safe environment.
 
+
+
 ## 🧠 What's Inside
 
 This repo includes several challenges I authored for Presidents Cup. Each one has been updated (or will be) to support self-hosted deployment, typically via Docker, VMs, or standalone files.
@@ -22,6 +24,7 @@ Check each challenge folder for:
 - Deployment instructions
 - Flag format (usually or will be updated to `flag{}` style)
 - Any required tools or dependencies
+- in the main folder is wordlist.txt, which I've used to seed any of the pc# challenges, any subsequent ones I make may not use this if the intention is to show the masking features of hybrid cracking for instance.
 
 ## 🛠️ Requirements
 
@@ -31,3 +34,4 @@ Check each challenge folder for:
 
 ## 📁 Structure
 
+Each challenge with solution guide is in its own folder.
