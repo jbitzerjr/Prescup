@@ -10,3 +10,7 @@ RUN echo "output_buffering = On" > /usr/local/etc/php/conf.d/output-buffering.in
 
 # Copy the actual site into the container
 COPY ./src /var/www/html/
+
+# Copy token3.txt into place
+COPY token3.txt /var/www/token3.txt
+ 
