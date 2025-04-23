@@ -3,6 +3,8 @@
 Welcome to a collection of custom CTF-style challenges originally created for the **Presidents Cup** cybersecurity competition. These challenges have been adapted for self-hosting so you can run them locally, use them for training, or just have fun breaking things in a safe environment.
 
 
+Some of these were not open sourced, so I recreated them.  Changed versions will be included in a subfolder of the main challenge.
+
 
 ## 🧠 What's Inside
 
