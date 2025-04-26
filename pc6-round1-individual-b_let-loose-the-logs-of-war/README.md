@@ -24,3 +24,14 @@ Navigate to `10.5.5.100` and probe for any vulnerabilities in the web server. Us
 
 1. Enter Token 1 found in the `/` directory of the web server container.
 2. Enter Token 2 found in the `/home/user/` directory of the host system after breaking out of the Tomcat container accessed in Question 1.
+
+---
+
+## Licensing Notes
+
+This challenge includes the Warlog application by Philippe Demanget, licensed under the GNU General Public License v3.0 (GPLv3).
+
+- Warlog Source: [https://github.com/pdemanget/warlog](https://github.com/pdemanget/warlog)
+- GPLv3 License Copy: See `LICENSE_WARLOG.txt` included with this challenge.
+
+This use is intended for educational purposes only.
