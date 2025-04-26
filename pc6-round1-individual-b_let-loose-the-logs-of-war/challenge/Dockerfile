@@ -1,5 +1,5 @@
 # Use the official Tomcat image as the base
-FROM tomcat:9
+FROM tomcat:9.0
 
 # Set environment variables for Tomcat
 ENV CATALINA_HOME /usr/local/tomcat
